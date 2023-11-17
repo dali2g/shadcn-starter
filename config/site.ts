@@ -1,7 +1,7 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "Shadcn Starter",
+  name: "Dali2g • Software Engineer",
   description:
     "A starter for Next.js with Tailwind CSS and TypeScript based on Shadcn's design system.",
   mainNav: [
