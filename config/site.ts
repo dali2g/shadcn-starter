@@ -9,10 +9,22 @@ export const siteConfig = {
       title: "Home",
       href: "/",
     },
+    {
+      title: "Projects",
+      href: "/projects",
+    },
+    {
+      title: "Skills & Experience",
+      href: "/skills-and-experience",
+    },
+    {
+      title: "Contact",
+      href: "/",
+    },
   ],
   links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/shadcn/ui",
-    docs: "https://ui.shadcn.com",
+    twitter: "https://twitter.com/dali2g",
+    github: "https://github.com/dali2g",
+    docs: "https://daliportfolio.vercel.app/",
   },
 }
