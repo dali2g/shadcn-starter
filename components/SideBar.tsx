@@ -26,7 +26,7 @@ export default function SideNavbar() {
       </SheetTrigger>
       <SheetContent>
         <SheetHeader>
-          <SheetTitle className="font-semibold">Action Center</SheetTitle>
+          <SheetTitle className="font-semibold">Actions Center</SheetTitle>
           <SheetDescription className="mt-5 font-medium">
             Switch Themes : 
           </SheetDescription>
