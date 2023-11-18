@@ -26,9 +26,9 @@ export default function SideNavbar() {
       </SheetTrigger>
       <SheetContent>
         <SheetHeader>
-          <SheetTitle className="font-semibold">Choose you theme</SheetTitle>
+          <SheetTitle className="font-semibold">Action Center</SheetTitle>
           <SheetDescription className="mt-5 font-medium">
-            You can change themes by clicking on Sun/Moon Icon 
+            Switch Themes : 
           </SheetDescription>
         </SheetHeader>
         <Button
