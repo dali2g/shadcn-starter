@@ -1,5 +1,6 @@
+"use client"
 import { Button } from "@/components/ui/button"
-import { Moon, Sun } from "lucide-react"
+import { Moon, Sun, Settings } from "lucide-react"
 import {
   Sheet,
   SheetClose,
@@ -12,12 +13,16 @@ import {
 } from "@/components/ui/sheet"
 import { useTheme } from "next-themes"
 
+
 export default function SideNavbar() {
     const { setTheme, theme } = useTheme()
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <Button variant="ghost" className="font-semibold">Theme</Button>
+        <Button className=" bg-background text-foreground">
+          <Settings/>
+          </Button>
+
       </SheetTrigger>
       <SheetContent>
         <SheetHeader>
