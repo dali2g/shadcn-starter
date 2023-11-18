@@ -6,18 +6,22 @@ export const siteConfig = {
     "A starter for Next.js with Tailwind CSS and TypeScript based on Shadcn's design system.",
   mainNav: [
     {
+      id: 1,
       title: "Home",
       href: "/",
     },
     {
+      id:2,
       title: "Projects",
       href: "/projects",
     },
     {
+      id:3,
       title: "Skills & Experience",
       href: "/skills-and-experience",
     },
     {
+      id:4,
       title: "Contact",
       href: "/contact",
     },

@@ -20,7 +20,7 @@ export default function SideNavbar() {
     <Sheet>
       <SheetTrigger asChild>
         <Button className=" bg-background text-foreground">
-          <Settings/>
+          <Settings className="h-6 w-6"/>
           </Button>
 
       </SheetTrigger>
