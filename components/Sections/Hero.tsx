@@ -23,7 +23,7 @@ import {
 import { fontRegular, myFont } from '@/constants'
 
 
-const Hero = () => {
+const Hero:React.FC = () => {
   
   return (
     <section  className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
@@ -43,7 +43,7 @@ const Hero = () => {
           <BiLogoReact className="text-foreground sm:text-5xl text-3xl hover:text-[#61dbfb] hover:ease-in-out animate-in zoom-in-50 duration-500" />
           <SiNextdotjs className="text-foreground sm:text-5xl text-3xl hover:text-[#5f6d6d] hover:ease-in-out animate-in zoom-in-50 duration-500" />
           <SiTailwindcss className="text-foreground sm:text-5xl text-3xl hover:text-[#06b6d4] hover:ease-in-out animate-in zoom-in-50 duration-500" />
-          <FiFramer className="text-foreground sm:text-5xl text-3xl hover:text-[#161616] hover:ease-in-out animate-in zoom-in-50 duration-500"></FiFramer>
+          <FiFramer className="text-foreground sm:text-5xl text-3xl hover:text-[#0055ff] hover:ease-in-out animate-in zoom-in-50 duration-500"></FiFramer>
           <SiMongodb className="text-foreground sm:text-5xl text-3xl hover:text-[#00b149] hover:ease-in-out animate-in zoom-in-50 duration-500" />
           <SiPrisma className="text-foreground sm:text-5xl text-3xl hover:text-[#2d3748] hover:ease-in-out animate-in zoom-in-50 duration-500" />
           <span className="text-xl text-foreground"> | </span>

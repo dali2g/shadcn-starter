@@ -50,6 +50,10 @@ const fieldsAttributes = [
     description: 'Keeping the UI clean with a modern touch without compromising UX.',
     dsc1:"Figma is a vector graphics editor and prototyping tool.",
     tag1: '#Figma',
+    tag2:"#Webflow",
+    dsc2:"Design and build your site with a flexible CMS and top-tier hosting.", 
+    tag3:"#Framer",
+    dsc3:"Framer is like @Figma but for designing and publishing real responsive websites.", 
 
   }
 ];
@@ -61,6 +65,27 @@ const fontRegular = localFont({
   src: "../public/assets/fonts/PlusJakartaSans-Regular.ttf",
 });
 
+const textAttributes = [
+  {
+  id:1,
+  title:"Clean & Intuitivly Designed",
+  subtitle:"Modern & Minimalist Design.",
+  paragraph:"I create intuitive, functional, and aesthetically pleasing user interfaces."
+},
+  {
+    id:2,
+  title:"Detailed & Refined",
+  subtitle:"Keen Eye for Spotting Small Details.",
+  paragraph:"I obsessively refine user interfaces, ensuring seamlessness and accessibility."
+},
+  {
+    id:3,
+  title:"Pretty & Optimized",
+  subtitle:"Comprehensible and Optimized Code.",
+  paragraph:"I craft clean, comprehensible and performant code for flawless user experiences."
+},
+]
 
 
-export { cardAttributes,fieldsAttributes,myFont,fontRegular}
+
+export { cardAttributes,fieldsAttributes,myFont,fontRegular,textAttributes}
