@@ -10,7 +10,6 @@ export default function IndexPage() {
     <div className="">
       <Hero/>
       <Cards/>
-      <Fields/>
       <LastSection/>
       <TextSection/>
       <Footer/>
